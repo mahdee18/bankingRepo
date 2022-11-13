@@ -1,0 +1,14 @@
+{
+  "name": "tailwind",
+  "version": "1.0.0",
+  "description": "tailwind sample",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwind -i ./dist/output.css -o ./dist/output.css -w"
+  },
+  "author": "Mahdee",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
+  }
+}
